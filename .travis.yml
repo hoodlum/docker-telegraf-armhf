@@ -5,7 +5,7 @@ services:
 
 env:
   global:
-    - IMAGE_NAME=stelzer77/telegra-armhf
+    - IMAGE_NAME=stelzer77/telegraf-armhf
 
 language: bash
 
