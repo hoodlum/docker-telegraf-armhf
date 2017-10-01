@@ -2,7 +2,7 @@ FROM hypriot/rpi-alpine as build-stage
 
 MAINTAINER Soeren Stelzer
 
-ENV VERSION 1.3.5
+ENV VERSION 1.4.1
 ENV TELEGRAF_FILE telegraf-${VERSION}_linux_armhf.tar.gz
 ENV TELEGRAF_URL https://dl.influxdata.com/telegraf/releases/${TELEGRAF_FILE}
 
